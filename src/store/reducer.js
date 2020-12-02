@@ -1,8 +1,10 @@
 const defaultState = {
-  inputValue : 'test',
+  inputValue : 'test123',
   list: []
 }
 
-export default (state = defaultState, action)=>{
+const x = (state = defaultState, action)=>{
   return state
 }
+
+export default x;
